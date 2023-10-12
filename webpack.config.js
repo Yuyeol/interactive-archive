@@ -8,7 +8,7 @@ module.exports = {
   output: {
     filename: "bundle.js",
     // 내보낼 파일의 위치
-    path: path.resolve(__dirname, "build"),
+    path: path.resolve(__dirname, "dist"),
     // 사용하지 않는 파일 자동 삭제
     clean: true,
   },
